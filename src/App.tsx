@@ -1,8 +1,12 @@
+import { Menu } from './components/Menu'
 import { Widget } from './components/Widget'
 
 export function App() {
   return (
-    <Widget />
+    <div className="App">
+      <Menu />
+      <Widget />
+    </div>
   )
 }
 
