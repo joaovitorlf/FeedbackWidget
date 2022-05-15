@@ -6,13 +6,13 @@ export function Menu(){
         setMode(!active)
     }
     return(
-        <div className="menuM">
+        <div className="menuM ">
             <div className={active ? "icon iconActive" : "icon"} onClick={ToggleMode}>
                 <div className='hamburguer hambueguerIcon'></div>                        
             </div>
 
-            <div className={active ? "menu menuOpen" : "menu menuClose"}>
-                <div className='list'>
+            <div className={active ? "menu border-2 hover:border-brand-500 menuOpen" : "menu menuClose"}>
+                <div className='list ' >
                     <ul className='listItems'>
                         <li>Principal</li>
                         <li>Produtos</li>
