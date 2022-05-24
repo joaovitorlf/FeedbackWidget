@@ -11,5 +11,5 @@ app.use(express.json());
 app.use(routes)
 
 app.listen(process.env.PORT || 3333, () => {
-    console.log('HTTP server running!')
+    console.log('The HTTP server running!')
 });
